@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: sans-serif;
+    color: #354358;
+ }
+
+ ::-webkit-scrollbar-thumb{
+     background-image: linear-gradient(to right bottom,#A3A7AA,#5D6166);
+ }
+
+ ::-webkit-scrollbar{
+width:8px;height:0px;
+ }
